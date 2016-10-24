@@ -5,7 +5,7 @@ fn main() {
     if args.len() > 1 {
         let puid = &args[1];
         println!("puid={}", puid);
-        println!("tableNum={number:>0width$}", number=get_table_num(puid),width=3);
+        println!("tableNum={:03}", get_table_num(puid));
     } else {
         println!("{} , input puid args ", &args[0]);
     }
