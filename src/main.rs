@@ -8,6 +8,7 @@ fn main() {
         println!("tableNum={:03}", get_table_num(puid));
     } else {
         println!("{} , input puid args ", &args[0]);
+
     }
 }
 
